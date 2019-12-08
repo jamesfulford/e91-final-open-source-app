@@ -29,9 +29,16 @@ In the project directory, you can run:
 - Outputs files into `build` directory.
 - Gives exit code 0 on success, other on failure.
 
+### `bash e2e.sh [baseUrl]`
+
+- Runs Cypress e2e tests in CI mode (within a container), pointing at the given URL.
+- By default, runs with baseUrl of http://localhost:8089 (intended for `yarn start` or for locally-built container)
+
 ### Build an image locally:
 Build the app, then build an image based on the build results.
+
 Then, run the image in the background (-d, daemon) on port 8089 (-p8089:80, external is 8089, internal is 80).
+
 Then, open your browser to localhost:8089 (python -m webbrowser -t is a neat shortcut)
 
 ```bash
@@ -47,7 +54,7 @@ python -m webbrowser -t http://localhost:8089
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:8089](http://localhost:8089) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
@@ -56,6 +63,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn cypress`
+
+Launches interactive [Cypress test runner](https://www.cypress.io/), a developer-friendly end-to-end web app testing framework.
 
 ### `yarn build`
 
