@@ -1,8 +1,35 @@
+# E91 DevOps at Harvard, Final Project
+
+The DevOps tooling are (according to best practice) stored in private repository.
+
+This is just the web application the tooling is built to support.
+
+# Available Scripts
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
+
+## CI/CD Scripts
+
+### `bash install.sh`
+
+- Sets correct node/npm version.
+- Installs dependencies
+- Gives exit code 0 on success, other on failure.
+
+### `bash test.sh`
+
+- Runs unit tests on application
+- Gives exit code 0 on success, other on failure.
+
+### `bash build.sh`
+
+- Builds application into static website
+- Outputs files into `build` directory.
+- Gives exit code 0 on success, other on failure.
+
+## Development
 
 ### `yarn start`
 
