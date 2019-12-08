@@ -11,7 +11,7 @@ nvm install 10.15.0
 nvm use 10.15.0
 
 echo ">>> Installing Dependencies..."
-yarn
+yarn --frozen-lockfile --production
 install_error_code=$?
 if [[ "0" != "$install_error_code" ]]; then
     echo "<<< Install failed!"
