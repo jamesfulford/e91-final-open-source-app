@@ -29,6 +29,19 @@ In the project directory, you can run:
 - Outputs files into `build` directory.
 - Gives exit code 0 on success, other on failure.
 
+### Build an image locally:
+Build the app, then build an image based on the build results.
+Then, run the image in the background (-d, daemon) on port 8089 (-p8089:80, external is 8089, internal is 80).
+Then, open your browser to localhost:8089 (python -m webbrowser -t is a neat shortcut)
+
+```bash
+bash ./build.sh && docker build -t e91-final-open-source-app:local .
+docker run -d -p8089:80 e91-final-open-source-app:local
+
+# Open your web browser to 8089
+python -m webbrowser -t http://localhost:8089
+```
+
 ## Development
 
 ### `yarn start`
