@@ -7,17 +7,19 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <code>
+          <a
+            className="App-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.extension.harvard.edu/course-catalog/courses/cloud-devopsmdashbasics-and-modern-techniques/15869"
+          >
+            Harvard E91
+          </a> Final Project App!
+        </code>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Team: James Fulford, {/* TODO(teammates): Put your name here! */}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
