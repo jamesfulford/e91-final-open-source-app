@@ -18,7 +18,7 @@ const App: React.FC = () => {
           </a> Final Project App!
         </code>
         <p>
-          Team: James Fulford, {/* TODO(teammates): Put your name here! */}
+          Team: James Fulford, Nora, Mengying {/* TODO(teammates): Put your name here! */}
         </p>
       </header>
     </div>
