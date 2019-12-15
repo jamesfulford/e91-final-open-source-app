@@ -17,9 +17,11 @@ const App: React.FC = () => {
             Harvard E91
           </a> Final Project App!
         </code>
-        <p>
-          Team: James Fulford, {/* TODO(teammates): Put your name here! */}
-        </p>
+        <ul>
+          <li>James Fulford </li>
+          <li>Mengying Wang</li>
+          <li>Nora Saludo</li>
+        </ul>
       </header>
     </div>
   );
