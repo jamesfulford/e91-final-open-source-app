@@ -9,7 +9,7 @@ docker pull cypress/included:3.7.0
 docker run \
     --net="host" \
     -h "$test_container_name" \
-    -it \
+    -i \
     -v "$PWD:/e2e" -w /e2e \
     --entrypoint cypress \
     cypress/included:3.7.0 \
