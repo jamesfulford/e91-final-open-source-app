@@ -4,7 +4,7 @@
 # Entry point is index.html.
 
 echo ">>> Building bundle..."
-yarn build
+docker run -i -v "$PWD:/build" -w /build node:10.16.0 "./_build.sh"
 build_error_code=$?
 if [[ "0" != "$build_error_code" ]]; then
     echo "<<< Build failed!"

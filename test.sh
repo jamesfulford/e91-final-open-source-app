@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ">>> Running tests..."
-CI=true yarn test
+docker run -i -v "$PWD:/test" -w /test node:10.16.0 "./_test.sh"
 test_error_code=$?
 if [[ "0" != "$test_error_code" ]]; then
     echo "<<< Tests failed!"
