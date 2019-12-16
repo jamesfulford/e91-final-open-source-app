@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ const App: React.FC = () => {
             Harvard E91
           </a> Final Project App for CSCI E91!
         </code>
+
         <ul>
           <li>James Fulford </li>
           <li>Mengying Wang</li>
