@@ -12,19 +12,10 @@ In the project directory, you can run:
 
 ## CI/CD Scripts
 
-### `bash install.sh`
-
-- Sets correct node/npm version.
-- Installs dependencies
-- Gives exit code 0 on success, other on failure.
-
-### `bash test.sh`
-
-- Runs unit tests on application
-- Gives exit code 0 on success, other on failure.
-
 ### `bash build.sh`
 
+- Installs dependencies
+- Runs tests
 - Builds application into static website
 - Outputs files into `build` directory.
 - Gives exit code 0 on success, other on failure.
