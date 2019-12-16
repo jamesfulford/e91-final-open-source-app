@@ -10,6 +10,7 @@ docker run \
     --net="host" \
     -h "$test_container_name" \
     -i \
+    --rm \
     -v "$PWD:/e2e" -w /e2e \
     --entrypoint cypress \
     cypress/included:3.7.0 \
