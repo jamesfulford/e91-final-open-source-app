@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ const App: React.FC = () => {
             href="https://www.extension.harvard.edu/course-catalog/courses/cloud-devopsmdashbasics-and-modern-techniques/15869"
           >
             Harvard E91
-          </a> Final Project App!
+          </a> Final Project App for CSCI E91!
         </code>
         <ul>
           <li>James Fulford</li>
