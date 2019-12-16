@@ -15,11 +15,13 @@ const App: React.FC = () => {
             href="https://www.extension.harvard.edu/course-catalog/courses/cloud-devopsmdashbasics-and-modern-techniques/15869"
           >
             Harvard E91
-          </a> Final Project App!
+          </a> Final Project App for CSCI E91!
         </code>
-        <p>
-          Team: James Fulford, {/* TODO(teammates): Put your name here! */}
-        </p>
+        <ul>
+          <li>James Fulford </li>
+          <li>Mengying Wang</li>
+          <li>Nora Saludo</li>
+        </ul>
       </header>
     </div>
   );
