@@ -16,7 +16,7 @@ const App: React.FC = () => {
             rel="noopener noreferrer"
             href="https://www.extension.harvard.edu/course-catalog/courses/cloud-devopsmdashbasics-and-modern-techniques/15869"
           >
-            Harvard E9
+            Harvard E91
           </a> Final Project App for CSCI E91!
         </code>
         <ul>
