@@ -10,5 +10,6 @@ if [[ "0" != "$build_error_code" ]]; then
     echo "<<< App Build failed!"
     exit $build_error_code
 fi
+
 echo ">>> Building app... done"
 echo
