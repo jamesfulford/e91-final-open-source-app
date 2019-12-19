@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import garfield from './garfield.jpg';
+import wilson from './wilson.png';
 import './App.css';
 
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
           <li>Nora Saludo</li>
         </ul>
         <img src={garfield} width={200} />
+        <img src={wilson} width={200} />
       </header>
     </div>
   );
